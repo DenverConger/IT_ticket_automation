@@ -10,6 +10,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 import re
+import numpy as np
 
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -31,7 +32,9 @@ for event in events:
     element_attribute_value = event.get_attribute('innerHTML')
     distance = re.findall(r"(\d+)p", element_attribute_value)
     distance = int(distance[0])
-    room_info.append(room_id,location,distance)
+    room_info.append((room_id,location,distance))
     print("id of room", room_id)
-    print("location from start",location)
-    print("length of class in min",distance)
+    # print("location from start",location)
+    # print("length of class in min",distance)
+room_info = np.asarray(room_info)
+np.save("room_time_webscrape.npy",room_info)
