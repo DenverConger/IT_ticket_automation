@@ -20,7 +20,7 @@ val = "http://scheduling.byui.edu/BrowseForSpace.aspx"
 browser.get(val)
 time.sleep(7)
 info_dict = {}
-
+room_info = []
 events = browser.find_elements(By.CSS_SELECTOR, ".event-container")
 for event in events:
     room_id = event.get_attribute('data-room-id')
@@ -31,6 +31,7 @@ for event in events:
     element_attribute_value = event.get_attribute('innerHTML')
     distance = re.findall(r"(\d+)p", element_attribute_value)
     distance = int(distance[0])
+    room_info.append(room_id,location,distance)
     print("id of room", room_id)
     print("location from start",location)
     print("length of class in min",distance)
