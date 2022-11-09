@@ -13,7 +13,7 @@ I would have combined these two datasets into a master dataset with both an upda
 
 I also will be building an algorithm that can compute the best time and order to go to multiple rooms on its own. Taking into account which floor it is on, whether it is a class break or not and the best way to get to all of them in one fell swoop if possible!
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Me talking about this project and what I have so far (More to come!)](https://youtu.be/bk8zcaERWTs)
 
 # Development Environment
 
