@@ -57,7 +57,7 @@ abbr_building_dict = {
     239: "STC"
 }
 print(building_dict.get(88))
-df = pd.read_csv("D:\Coding\IT_ticket_automation\output.csv", index_col=False)
+df = pd.read_csv("D:\Coding\IT_ticket_automation\data\webscraped.csv", index_col=False)
 
 print(df.head(50))
 df['building_name'] = df['building_id']
@@ -72,9 +72,9 @@ df['class_number'] = df['room_name'].apply(lambda x: split_it(x))
 df["Full Name of Space"] = df["abbr_building_name"] + df["class_number"]
 
 # df = df[["Full Name of Space","Hour", "Length of Class", "room_id"]]
-df2 = pd.read_csv("D:\Coding\IT_ticket_automation\mastaroomlistexcel.csv", index_col=False)
+df2 = pd.read_csv("D:\Coding\IT_ticket_automation\data\mastaroomlistexcel.csv", index_col=False)
 df3 = pd.merge(df2, df, on="Full Name of Space")
 
 print(df.head(50))
-df.to_csv('cleaned_output.csv', index=False)
-df3.to_csv('merged_data.csv', index=False)
+df.to_csv('D:\Coding\IT_ticket_automation\data\cleaned_output.csv', index=False)
+df3.to_csv('D:\Coding\IT_ticket_automation\data\merged_data.csv', index=False)

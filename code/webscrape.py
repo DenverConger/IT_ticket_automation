@@ -61,7 +61,7 @@ for event in events:
     print("length of class in min",distance)
 df2 = pd.DataFrame(room_info, columns =['room_id', 'Hour','Length of Class'])
 df3 = pd.merge(df, df2, on="room_id")
-df3.to_csv('output.csv', index=False)
+df3.to_csv('D:\Coding\IT_ticket_automation\data\webscraped.csv', index=False)
 print(df3.head)
 # room_info = np.asarray(room_info)
 # np.save("room_time_webscrape.npy",room_info)

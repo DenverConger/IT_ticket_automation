@@ -1,0 +1,45 @@
+
+
+```{r}
+library(rio)
+library(tidyverse)
+library(devtools)
+library(readr)
+```
+
+```{r}
+classdata = import("merged_data.csv")
+# classdata$`Length of Class`
+# classdata_l = pivot_longer(classdata, cols = "Full Name of Space")
+# classdata_w = pivot_wider(classdata, names_from  = "Full Name of Space",values_from = c(`Length of Class`))
+# classdata_w = pivot_wider(classdata_w,values_from = Hour)
+# classdata_l <- classdata %>% pivot_longer(-c(`Length of Class`,Hour)) %>%
+#   pivot_wider(names_from = ID, values_from=value)
+
+p <- function(v) {
+  Reduce(f=paste, x = v)
+ }
+
+classdata_1 <- classdata %>% 
+  group_by(`Full Name of Space`) %>% 
+  summarise(hours_open = paste(Hour, collapse = "-"), 
+            length_per_class = paste(`Length of Class`, collapse = "-"),
+            X=X,
+            Y=Y,
+            building_id=building_id,
+            room_id=room_id
+            )
+classdata_2 <- unique(classdata_1)
+# classdata_2$hours_open <- sapply(strsplit((classdata_2$hours_open), split=","), function(x) as.numeric(x))
+# classdata_2$length_per_class <- sapply(strsplit((classdata_2$length_per_class), split=","), function(x) as.numeric(x))
+# classdata_2$hours_open <- strsplit(classdata_2$hours_open,split= ',')
+
+# classdata_2$length_per_class <- strsplit(classdata_2$length_per_class,split= ',')
+write_csv(classdata_2, "fully_wrangled_data.csv")
+```
+
+```{r}
+classdata_w <- classdata %>% group_by("Full Name of Space")
+```
+
+

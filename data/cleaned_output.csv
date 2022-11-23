@@ -1,0 +1,163 @@
+building_id,room_id,room_name,Hour,Length of Class,building_name,abbr_building_name,class_number,Full Name of Space
+2,33,009 Classroom,1080,120,Austin,AUS,009,AUS009
+2,6,128 Classroom,1065,60,Austin,AUS,128,AUS128
+2,10,151 Classroom,900,120,Austin,AUS,151,AUS151
+2,15,157 Classroom,1020,120,Austin,AUS,157,AUS157
+2,24,202 Classroom,1065,120,Austin,AUS,202,AUS202
+2,25,204 Classroom,840,60,Austin,AUS,204,AUS204
+2,1269,204/206 Classroom Combo,840,60,Austin,AUS,204/206,AUS204/206
+2,28,210 Classroom,0,1439,Austin,AUS,210,AUS210
+2,1268,210/212 Classroom Combo,0,1439,Austin,AUS,210/212,AUS210/212
+2,29,212 Classroom,0,1439,Austin,AUS,212,AUS212
+2,32,221 Classroom,1050,60,Austin,AUS,221,AUS221
+3,63,108 Classroom,960,60,Benson,BEN,108,BEN108
+3,63,108 Classroom,1020,120,Benson,BEN,108,BEN108
+3,757,108/110 Classroom,960,60,Benson,BEN,108/110,BEN108/110
+3,757,108/110 Classroom,1020,120,Benson,BEN,108/110,BEN108/110
+3,65,110 Classroom,1020,120,Benson,BEN,110,BEN110
+3,68,124 Classroom,975,45,Benson,BEN,124,BEN124
+3,68,124 Classroom,1020,120,Benson,BEN,124,BEN124
+3,69,133 Classroom,750,60,Benson,BEN,133,BEN133
+3,69,133 Classroom,675,45,Benson,BEN,133,BEN133
+3,457,1FF Foyer,630,30,Benson,BEN,1FF,BEN1FF
+3,74,216 Conference Room (Biology Dept),615,60,Benson,BEN,216,BEN216
+3,74,216 Conference Room (Biology Dept),840,60,Benson,BEN,216,BEN216
+3,84,269 Classroom,1110,90,Benson,BEN,269,BEN269
+47,854,151 Conference Room,840,60,Biddulph Hall,,151,151
+47,856,212 Conference Room,540,60,Biddulph Hall,,212,212
+47,855,251 Conference Room,900,60,Biddulph Hall,,251,251
+47,855,251 Conference Room,870,30,Biddulph Hall,,251,251
+47,1304,322 Conference Room,900,60,Biddulph Hall,,322,322
+45,569,Auditorium,1,1438,BYU-Idaho Center,,Auditorium,Auditorium
+45,602,Court 04,660,120,BYU-Idaho Center,,Court,Court
+45,603,Court 05,675,15,BYU-Idaho Center,,Court,Court
+45,604,Court 06,660,120,BYU-Idaho Center,,Court,Court
+45,605,Court 07,675,15,BYU-Idaho Center,,Court,Court
+45,635,Courts 1-10,660,120,BYU-Idaho Center,,Courts,Courts
+45,635,Courts 1-10,660,120,BYU-Idaho Center,,Courts,Courts
+45,635,Courts 1-10,675,15,BYU-Idaho Center,,Courts,Courts
+45,635,Courts 1-10,675,15,BYU-Idaho Center,,Courts,Courts
+4,118,114 Classroom,510,60,Clarke,CLK,114,CLK114
+4,861,229 Classroom,915,60,Clarke,CLK,229,CLK229
+4,862,235 Classroom,885,15,Clarke,CLK,235,CLK235
+4,864,235/239 Classroom Combo,885,15,Clarke,CLK,235/239,CLK235/239
+4,863,239 Classroom,885,15,Clarke,CLK,239,CLK239
+4,144,341 Classroom,915,60,Clarke,CLK,341,CLK341
+4,1272,341/343 Classrooom Combo,915,60,Clarke,CLK,341/343,CLK341/343
+24,407,Sports Complex Field 2,360,150,Fields,,Sports,Sports
+24,402,Stadium Field,360,105,Fields,,Stadium,Stadium
+24,423,Stadium Field and Track,360,105,Fields,,Stadium,Stadium
+5,1319,215 Swimming Pool (combined lanes),825,45,Hart,HRT,215,HRT215
+5,1319,215 Swimming Pool (combined lanes),540,210,Hart,HRT,215,HRT215
+5,1319,215 Swimming Pool (combined lanes),360,60,Hart,HRT,215,HRT215
+5,1320,215-L1 Swimming Pool - Lane 1,825,45,Hart,HRT,215-L1,HRT215-L1
+5,1320,215-L1 Swimming Pool - Lane 1,540,210,Hart,HRT,215-L1,HRT215-L1
+5,1320,215-L1 Swimming Pool - Lane 1,360,60,Hart,HRT,215-L1,HRT215-L1
+5,1321,215-L2 Swimming Pool - Lane 2,825,45,Hart,HRT,215-L2,HRT215-L2
+5,1321,215-L2 Swimming Pool - Lane 2,540,210,Hart,HRT,215-L2,HRT215-L2
+5,1321,215-L2 Swimming Pool - Lane 2,360,60,Hart,HRT,215-L2,HRT215-L2
+5,1322,215-L3 Swimming Pool - Lane 3,825,45,Hart,HRT,215-L3,HRT215-L3
+5,1322,215-L3 Swimming Pool - Lane 3,540,210,Hart,HRT,215-L3,HRT215-L3
+5,1322,215-L3 Swimming Pool - Lane 3,360,60,Hart,HRT,215-L3,HRT215-L3
+5,1323,215-L4 Swimming Pool - Lane 4,825,45,Hart,HRT,215-L4,HRT215-L4
+5,1323,215-L4 Swimming Pool - Lane 4,540,210,Hart,HRT,215-L4,HRT215-L4
+5,1323,215-L4 Swimming Pool - Lane 4,360,60,Hart,HRT,215-L4,HRT215-L4
+5,1324,215-L5 Swimming Pool - Lane 5,825,45,Hart,HRT,215-L5,HRT215-L5
+5,1324,215-L5 Swimming Pool - Lane 5,540,210,Hart,HRT,215-L5,HRT215-L5
+5,1324,215-L5 Swimming Pool - Lane 5,360,60,Hart,HRT,215-L5,HRT215-L5
+5,1325,215-L6 Swimming Pool - Lane 6,825,45,Hart,HRT,215-L6,HRT215-L6
+5,1325,215-L6 Swimming Pool - Lane 6,540,210,Hart,HRT,215-L6,HRT215-L6
+5,1325,215-L6 Swimming Pool - Lane 6,360,60,Hart,HRT,215-L6,HRT215-L6
+5,193,234 Fitness Studio,1020,60,Hart,HRT,234,HRT234
+5,193,234 Fitness Studio,1080,60,Hart,HRT,234,HRT234
+5,193,234 Fitness Studio,1140,60,Hart,HRT,234,HRT234
+5,193,234 Fitness Studio,1200,60,Hart,HRT,234,HRT234
+5,194,250 Auditorium (gym/stage combo),1140,60,Hart,HRT,250,HRT250
+5,194,250 Auditorium (gym/stage combo),1200,60,Hart,HRT,250,HRT250
+5,194,250 Auditorium (gym/stage combo),1260,60,Hart,HRT,250,HRT250
+5,429,250 Hart Gym,1140,60,Hart,HRT,250,HRT250
+5,429,250 Hart Gym,1200,60,Hart,HRT,250,HRT250
+5,429,250 Hart Gym,1260,60,Hart,HRT,250,HRT250
+5,428,250B Hart Stage,1140,60,Hart,HRT,250B,HRT250B
+5,428,250B Hart Stage,1260,60,Hart,HRT,250B,HRT250B
+6,151,203 Classroom,1140,90,Hinckley,HIN,203,HIN203
+6,153,209 Classroom,1110,120,Hinckley,HIN,209,HIN209
+6,154,221 Classroom,1110,210,Hinckley,HIN,221,HIN221
+6,155,227 Classroom,1140,90,Hinckley,HIN,227,HIN227
+6,157,245 Classroom,1140,90,Hinckley,HIN,245,HIN245
+6,159,257 Classroom,1140,90,Hinckley,HIN,257,HIN257
+6,162,271 Classroom,1140,90,Hinckley,HIN,271,HIN271
+6,163,277 Classroom,1140,90,Hinckley,HIN,277,HIN277
+6,167,307 Classroom,1140,90,Hinckley,HIN,307,HIN307
+6,170,371 Classroom,1140,90,Hinckley,HIN,371,HIN371
+8,201,138 Conference Room,480,120,Kimball,KIM,138,KIM138
+8,201,138 Conference Room,1140,60,Kimball,KIM,138,KIM138
+8,207,243 Conference Room,1140,60,Kimball,KIM,243,KIM243
+8,208,245 Classroom,1140,60,Kimball,KIM,245,KIM245
+8,209,268 Conference  Room,630,60,Kimball,KIM,268,KIM268
+12,532,176A Meeting Room,450,30,Manwaring Center,MAN,176A,MAN176A
+12,535,176B Meeting Room,900,60,Manwaring Center,MAN,176B,MAN176B
+12,536,176C Meeting Room,900,60,Manwaring Center,MAN,176C,MAN176C
+12,537,176D Meeting Room,480,360,Manwaring Center,MAN,176D,MAN176D
+12,541,378 Conference Room,540,60,Manwaring Center,MAN,378,MAN378
+12,541,378 Conference Room,660,60,Manwaring Center,MAN,378,MAN378
+12,541,378 Conference Room,870,90,Manwaring Center,MAN,378,MAN378
+12,542,380 Meeting Room,870,150,Manwaring Center,MAN,380,MAN380
+12,543,385 Conference Room,630,90,Manwaring Center,MAN,385,MAN385
+12,543,385 Conference Room,1020,120,Manwaring Center,MAN,385,MAN385
+12,543,385 Conference Room,720,60,Manwaring Center,MAN,385,MAN385
+12,687,BTH204 Ballroom  ,1020,120,Manwaring Center,MAN,BTH204,MANBTH204
+13,1267,130 Library Meeting Room,573,147,McKay Library,MCK,130,MCK130
+13,1186,140E Large Group Study Room,585,60,McKay Library,MCK,140E,MCK140E
+13,247,293 Classroom,1080,60,McKay Library,MCK,293,MCK293
+13,248,294 Classroom,1080,60,McKay Library,MCK,294,MCK294
+14,265,211 Classroom,1020,120,Ricks,RKS,211,RKS211
+14,267,225 Classroom,975,60,Ricks,RKS,225,RKS225
+14,633,Ricks Patio and Foyer Combination,630,30,Ricks,RKS,Ricks,RKSRicks
+16,285,131 Classroom,945,150,Romney,ROM,131,ROM131
+16,301,268 Classroom,1020,120,Romney,ROM,268,ROM268
+16,305,277 Classroom,1020,120,Romney,ROM,277,ROM277
+239,1029,201 Classroom,990,120,Science and Technology Center,STC,201,STC201
+239,1177,201/205 Classroom Combo,780,90,Science and Technology Center,STC,201/205,STC201/205
+239,1177,201/205 Classroom Combo,930,60,Science and Technology Center,STC,201/205,STC201/205
+239,1177,201/205 Classroom Combo,990,120,Science and Technology Center,STC,201/205,STC201/205
+239,1030,205 Classroom,780,90,Science and Technology Center,STC,205,STC205
+239,1030,205 Classroom,930,60,Science and Technology Center,STC,205,STC205
+239,1030,205 Classroom,990,120,Science and Technology Center,STC,205,STC205
+239,1276,207 Study Room,570,180,Science and Technology Center,STC,207,STC207
+239,1276,207 Study Room,750,180,Science and Technology Center,STC,207,STC207
+239,1207,225  Conference Room,660,135,Science and Technology Center,STC,225,STC225
+239,1206,235  Conference Room,960,90,Science and Technology Center,STC,235,STC235
+239,1035,243 Computer Lab,990,60,Science and Technology Center,STC,243,STC243
+239,1048,310L Classroom - Conference Room,780,30,Science and Technology Center,STC,310L,STC310L
+239,1048,310L Classroom - Conference Room,1020,60,Science and Technology Center,STC,310L,STC310L
+239,1049,320P Classroom - Conference Room,900,60,Science and Technology Center,STC,320P,STC320P
+17,309,122 Classroom,1020,120,Smith,SMI,122,SMI122
+17,312,129 Classroom,1080,120,Smith,SMI,129,SMI129
+17,1238,244 Classroom,1035,60,Smith,SMI,244,SMI244
+17,1274,244/250 Combo,1035,60,Smith,SMI,244/250,SMI244/250
+17,1240,250 Classroom,1035,60,Smith,SMI,250,SMI250
+17,1239,256 Classroom,900,180,Smith,SMI,256,SMI256
+17,322,272 Conference Room,1020,60,Smith,SMI,272,SMI272
+17,326,302 Classroom,615,60,Smith,SMI,302,SMI302
+17,333,345 Classroom - laptop,1140,120,Smith,SMI,345,SMI345
+17,344,440 Classroom - laptop,1020,120,Smith,SMI,440,SMI440
+17,345,442 Classroom - laptop,900,90,Smith,SMI,442,SMI442
+17,345,442 Classroom - laptop,1020,60,Smith,SMI,442,SMI442
+17,468,444 Classroom - laptop,900,150,Smith,SMI,444,SMI444
+17,469,448 Classroom - laptop,960,60,Smith,SMI,448,SMI448
+17,347,468 Classroom,1020,120,Smith,SMI,468,SMI468
+17,349,478 Classroom - laptop,1005,105,Smith,SMI,478,SMI478
+17,483,Foyer Booth,660,180,Smith,SMI,Foyer,SMIFoyer
+18,356,136 Barrus Concert Hall,540,60,Snow,SNO,136,SNO136
+18,356,136 Barrus Concert Hall,615,60,Snow,SNO,136,SNO136
+18,356,136 Barrus Concert Hall,765,60,Snow,SNO,136,SNO136
+18,356,136 Barrus Concert Hall,840,60,Snow,SNO,136,SNO136
+18,356,136 Barrus Concert Hall,990,60,Snow,SNO,136,SNO136
+18,356,136 Barrus Concert Hall,420,120,Snow,SNO,136,SNO136
+18,360,185 Classroom,840,60,Snow,SNO,185,SNO185
+18,360,185 Classroom,765,60,Snow,SNO,185,SNO185
+18,364,220 Classroom ,765,60,Snow,SNO,220,SNO220
+18,364,220 Classroom ,990,60,Snow,SNO,220,SNO220
+19,99,014 Computer Lab,480,840,Spori,SPO,014,SPO014
+19,104,136 Classroom,1050,180,Spori,SPO,136,SPO136

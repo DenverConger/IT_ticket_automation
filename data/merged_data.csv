@@ -1,0 +1,103 @@
+Building Name,Floor Number,Short Name of Space,Full Name of Space,Space Type,Capacity,Space Function,Level Number,Calculated Square Footage,X,Y,building_id,room_id,room_name,Hour,Length of Class,building_name,abbr_building_name,class_number
+SMI,1,129,SMI129,Classroom,60,Classroom,1,898,-111.781588,43.819417,17,312,129 Classroom,1080,120,Smith,SMI,129
+SMI,1,122,SMI122,Classroom,73,Classroom,1,1117,-111.781465,43.819307,17,309,122 Classroom,1020,120,Smith,SMI,122
+SMI,2,272,SMI272,Conference Room,2,Conference Room,2,249,-111.7816,43.818973,17,322,272 Conference Room,1020,60,Smith,SMI,272
+SMI,3,345,SMI345,Laboratory,24,Computer Lab,3,557,-111.78161,43.819173,17,333,345 Classroom - laptop,1140,120,Smith,SMI,345
+SMI,3,302,SMI302,Classroom,47,Classroom,3,706,-111.781329,43.819417,17,326,302 Classroom,615,60,Smith,SMI,302
+SMI,4,478,SMI478,Laboratory,23,Computer Lab,4,891,-111.781469,43.818968,17,349,478 Classroom - laptop,1005,105,Smith,SMI,478
+SMI,4,448,SMI448,Laboratory,25,Laptop Lab,4,352,-111.78133,43.81916,17,469,448 Classroom - laptop,960,60,Smith,SMI,448
+SMI,4,444,SMI444,Laboratory,37,Laptop Lab,4,538,-111.78133,43.819236,17,468,444 Classroom - laptop,900,150,Smith,SMI,444
+SMI,4,442,SMI442,Laboratory,45,Laptop Lab,4,662,-111.781331,43.819305,17,345,442 Classroom - laptop,900,90,Smith,SMI,442
+SMI,4,442,SMI442,Laboratory,45,Laptop Lab,4,662,-111.781331,43.819305,17,345,442 Classroom - laptop,1020,60,Smith,SMI,442
+SMI,4,440,SMI440,Laboratory,35,Language Lab,4,1233,-111.781465,43.819178,17,344,440 Classroom - laptop,1020,120,Smith,SMI,440
+SMI,4,468,SMI468,Classroom,49,Classroom,4,738,-111.78145,43.819076,17,347,468 Classroom,1020,120,Smith,SMI,468
+ROM,1,131,ROM131,Classroom,43,Lecture Hall,1,780,-111.783104,43.820288,16,285,131 Classroom,945,150,Romney,ROM,131
+ROM,2,277,ROM277,Classroom,93,Classroom,2,1405,-111.783295,43.82023,16,305,277 Classroom,1020,120,Romney,ROM,277
+ROM,2,268,ROM268,Classroom,40,Classroom,2,592,-111.783482,43.820043,16,301,268 Classroom,1020,120,Romney,ROM,268
+SPO,B,14,SPO014,Laboratory,26,Computer Room,0,816,-111.782617,43.820755,19,99,014 Computer Lab,480,840,Spori,SPO,014
+SPO,1,136,SPO136,Classroom,30,Classroom,1,578,-111.782355,43.820726,19,104,136 Classroom,1050,180,Spori,SPO,136
+CLK,2,235,CLK235,Classroom,0,Classroom,2,905,-111.78188,43.820455,4,862,235 Classroom,885,15,Clarke,CLK,235
+CLK,2,239,CLK239,Classroom,0,Classroom,2,706,-111.78188,43.820374,4,863,239 Classroom,885,15,Clarke,CLK,239
+CLK,2,229,CLK229,Classroom,0,Classroom,2,660,-111.781789,43.820477,4,861,229 Classroom,915,60,Clarke,CLK,229
+SNO,1,185,SNO185,Laboratory,52,Classroom,1,776,-111.783271,43.821344,18,360,185 Classroom,840,60,Snow,SNO,185
+SNO,1,185,SNO185,Laboratory,52,Classroom,1,776,-111.783271,43.821344,18,360,185 Classroom,765,60,Snow,SNO,185
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,540,60,Snow,SNO,136
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,615,60,Snow,SNO,136
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,765,60,Snow,SNO,136
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,840,60,Snow,SNO,136
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,990,60,Snow,SNO,136
+SNO,1,136,SNO136,Music Room,681,Concert Hall,1,6647,-111.783558,43.821315,18,356,136 Barrus Concert Hall,420,120,Snow,SNO,136
+SNO,2,220,SNO220,Conference Room,30,Conference Room,2,448,-111.783899,43.821459,18,364,220 Classroom ,765,60,Snow,SNO,220
+SNO,2,220,SNO220,Conference Room,30,Conference Room,2,448,-111.783899,43.821459,18,364,220 Classroom ,990,60,Snow,SNO,220
+AUS,B,9,AUS009,Classroom,68,Computer Lab,0,1315,-111.784797,43.816184,2,33,009 Classroom,1080,120,Austin,AUS,009
+AUS,1,151,AUS151,Classroom,49,Classroom,1,728,-111.784278,43.815675,2,10,151 Classroom,900,120,Austin,AUS,151
+AUS,1,157,AUS157,Classroom,46,Classroom,1,716,-111.784164,43.815559,2,15,157 Classroom,1020,120,Austin,AUS,157
+AUS,1,128,AUS128,Classroom,23,Laboratory,1,1125,-111.784538,43.816205,2,6,128 Classroom,1065,60,Austin,AUS,128
+BEN,1,108,BEN108,Classroom,0,Classroom,1,999,-111.783359,43.815935,3,63,108 Classroom,960,60,Benson,BEN,108
+BEN,1,108,BEN108,Classroom,0,Classroom,1,999,-111.783359,43.815935,3,63,108 Classroom,1020,120,Benson,BEN,108
+BEN,1,110,BEN110,Classroom,60,Classroom,1,1208,-111.783367,43.81586,3,65,110 Classroom,1020,120,Benson,BEN,110
+BEN,1,124,BEN124,Classroom,44,Classroom,1,655,-111.783329,43.815622,3,68,124 Classroom,975,45,Benson,BEN,124
+BEN,1,124,BEN124,Classroom,44,Classroom,1,655,-111.783329,43.815622,3,68,124 Classroom,1020,120,Benson,BEN,124
+BEN,1,133,BEN133,Conference Room,17,Conference room,1,346,-111.783148,43.815546,3,69,133 Classroom,750,60,Benson,BEN,133
+BEN,1,133,BEN133,Conference Room,17,Conference room,1,346,-111.783148,43.815546,3,69,133 Classroom,675,45,Benson,BEN,133
+BEN,2,269,BEN269,Classroom,39,Classroom,2,587,-111.783012,43.815285,3,84,269 Classroom,1110,90,Benson,BEN,269
+BEN,2,216,BEN216,Conference Room,25,Conference Room,2,364,-111.783323,43.815865,3,74,216 Conference Room (Biology Dept),615,60,Benson,BEN,216
+BEN,2,216,BEN216,Conference Room,25,Conference Room,2,364,-111.783323,43.815865,3,74,216 Conference Room (Biology Dept),840,60,Benson,BEN,216
+RKS,2,225,RKS225,Classroom,49,Classroom,2,809,-111.78154,43.814756,14,267,225 Classroom,975,60,Ricks,RKS,225
+RKS,2,211,RKS211,Classroom,49,Classroom,2,810,-111.781767,43.814757,14,265,211 Classroom,1020,120,Ricks,RKS,211
+KIM,1,138,KIM138,Conference Room,28,Conference room,1,564,-111.781404,43.816904,8,201,138 Conference Room,480,120,Kimball,KIM,138
+KIM,1,138,KIM138,Conference Room,28,Conference room,1,564,-111.781404,43.816904,8,201,138 Conference Room,1140,60,Kimball,KIM,138
+KIM,2,268,KIM268,Conference Room,14,Conference Room,2,283,-111.781623,43.816796,8,209,268 Conference  Room,630,60,Kimball,KIM,268
+KIM,2,245,KIM245,Classroom,28,Classroom,2,422,-111.781515,43.81682,8,208,245 Classroom,1140,60,Kimball,KIM,245
+KIM,2,243,KIM243,Copy Room,4,Copy / Work Room,2,382,-111.781514,43.816872,8,207,243 Conference Room,1140,60,Kimball,KIM,243
+MCK,1,140E,MCK140E,Library,6,Microfilm Readers,1,230,-111.783307,43.819619,13,1186,140E Large Group Study Room,585,60,McKay Library,MCK,140E
+MCK,1,130,MCK130,Break Room,7,Break Area,1,350,-111.783288,43.819317,13,1267,130 Library Meeting Room,573,147,McKay Library,MCK,130
+MCK,2,293,MCK293,Classroom,24,Classroom,2,459,-111.782341,43.819532,13,247,293 Classroom,1080,60,McKay Library,MCK,293
+MCK,2,294,MCK294,Classroom,28,Classroom,2,414,-111.782557,43.819448,13,248,294 Classroom,1080,60,McKay Library,MCK,294
+HIN,2,203,HIN203,Classroom,54,Classroom,2,1030,-111.779658,43.816051,6,151,203 Classroom,1140,90,Hinckley,HIN,203
+HIN,2,209,HIN209,Classroom,45,Classroom,2,717,-111.77964,43.815963,6,153,209 Classroom,1110,120,Hinckley,HIN,209
+HIN,2,221,HIN221,Classroom,45,Classroom,2,717,-111.779642,43.815799,6,154,221 Classroom,1110,210,Hinckley,HIN,221
+HIN,2,227,HIN227,Classroom,45,Classroom,2,842,-111.779652,43.815711,6,155,227 Classroom,1140,90,Hinckley,HIN,227
+HIN,2,245,HIN245,Classroom,45,Classroom,2,748,-111.780095,43.815713,6,157,245 Classroom,1140,90,Hinckley,HIN,245
+HIN,2,257,HIN257,Classroom,45,Classroom,2,711,-111.780096,43.815804,6,159,257 Classroom,1140,90,Hinckley,HIN,257
+HIN,2,271,HIN271,Classroom,45,Classroom,2,714,-111.780094,43.815967,6,162,271 Classroom,1140,90,Hinckley,HIN,271
+HIN,2,277,HIN277,Classroom,20,Classroom,2,544,-111.78009,43.816043,6,163,277 Classroom,1140,90,Hinckley,HIN,277
+HIN,3,371,HIN371,Classroom,57,Classroom,3,933,-111.780091,43.81596,6,170,371 Classroom,1140,90,Hinckley,HIN,371
+HIN,3,307,HIN307,Classroom,44,HC/Classroom,3,893,-111.779639,43.815953,6,167,307 Classroom,1140,90,Hinckley,HIN,307
+HRT,2,215,HRT215,Exercise Space,100,Swimming Pool,2,7180,-111.784521,43.819347,5,1319,215 Swimming Pool (combined lanes),825,45,Hart,HRT,215
+HRT,2,215,HRT215,Exercise Space,100,Swimming Pool,2,7180,-111.784521,43.819347,5,1319,215 Swimming Pool (combined lanes),540,210,Hart,HRT,215
+HRT,2,215,HRT215,Exercise Space,100,Swimming Pool,2,7180,-111.784521,43.819347,5,1319,215 Swimming Pool (combined lanes),360,60,Hart,HRT,215
+HRT,2,234,HRT234,Classroom,40,Dance Studio,2,2393,-111.784803,43.819613,5,193,234 Fitness Studio,1020,60,Hart,HRT,234
+HRT,2,234,HRT234,Classroom,40,Dance Studio,2,2393,-111.784803,43.819613,5,193,234 Fitness Studio,1080,60,Hart,HRT,234
+HRT,2,234,HRT234,Classroom,40,Dance Studio,2,2393,-111.784803,43.819613,5,193,234 Fitness Studio,1140,60,Hart,HRT,234
+HRT,2,234,HRT234,Classroom,40,Dance Studio,2,2393,-111.784803,43.819613,5,193,234 Fitness Studio,1200,60,Hart,HRT,234
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,194,250 Auditorium (gym/stage combo),1140,60,Hart,HRT,250
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,194,250 Auditorium (gym/stage combo),1200,60,Hart,HRT,250
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,194,250 Auditorium (gym/stage combo),1260,60,Hart,HRT,250
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,429,250 Hart Gym,1140,60,Hart,HRT,250
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,429,250 Hart Gym,1200,60,Hart,HRT,250
+HRT,2,250,HRT250,Seating Area,3579,Main Gym Fixed Seating Area,2,20102,-111.785393,43.819578,5,429,250 Hart Gym,1260,60,Hart,HRT,250
+HRT,2,250B,HRT250B,Acting Stage,50,Stage,2,1568,-111.78539,43.819305,5,428,250B Hart Stage,1140,60,Hart,HRT,250B
+HRT,2,250B,HRT250B,Acting Stage,50,Stage,2,1568,-111.78539,43.819305,5,428,250B Hart Stage,1260,60,Hart,HRT,250B
+STC,3,320P,STC320P,Conference Room,28,Conference Room,3,508,-111.785011,43.814417,239,1049,320P Classroom - Conference Room,900,60,Science and Technology Center,STC,320P
+STC,3,310L,STC310L,Conference Room,<Null>,Conference Room,3,424,-111.784154,43.814411,239,1048,310L Classroom - Conference Room,780,30,Science and Technology Center,STC,310L
+STC,3,310L,STC310L,Conference Room,<Null>,Conference Room,3,424,-111.784154,43.814411,239,1048,310L Classroom - Conference Room,1020,60,Science and Technology Center,STC,310L
+STC,2,243,STC243,Classroom,37,Laboratory,2,1845,-111.785134,43.814426,239,1035,243 Computer Lab,990,60,Science and Technology Center,STC,243
+STC,2,207,STC207,Conference Room,4,Conference Room,2,123,-111.784606,43.814463,239,1276,207 Study Room,570,180,Science and Technology Center,STC,207
+STC,2,207,STC207,Conference Room,4,Conference Room,2,123,-111.784606,43.814463,239,1276,207 Study Room,750,180,Science and Technology Center,STC,207
+STC,2,205,STC205,Classroom,43,Classroom,2,837,-111.784432,43.814466,239,1030,205 Classroom,780,90,Science and Technology Center,STC,205
+STC,2,205,STC205,Classroom,43,Classroom,2,837,-111.784432,43.814466,239,1030,205 Classroom,930,60,Science and Technology Center,STC,205
+STC,2,205,STC205,Classroom,43,Classroom,2,837,-111.784432,43.814466,239,1030,205 Classroom,990,120,Science and Technology Center,STC,205
+STC,2,201,STC201,Classroom,55,Classroom,2,1078,-111.78431,43.814442,239,1029,201 Classroom,990,120,Science and Technology Center,STC,201
+STC,2,235,STC235,Conference Room,8,Conference Room,2,202,-111.784999,43.814509,239,1206,235  Conference Room,960,90,Science and Technology Center,STC,235
+STC,2,225,STC225,Conference Room,8,Conference Room,2,124,-111.784855,43.814529,239,1207,225  Conference Room,660,135,Science and Technology Center,STC,225
+SMI,2,256,SMI256,Classroom,<Null>,Classroom,2,478,-111.781473,43.819153,17,1239,256 Classroom,900,180,Smith,SMI,256
+SMI,2,244,SMI244,Classroom,<Null>,Classroom,2,693,-111.781353,43.819221,17,1238,244 Classroom,1035,60,Smith,SMI,244
+SMI,2,250,SMI250,Classroom,<Null>,Classroom,2,813,-111.781353,43.819161,17,1240,250 Classroom,1035,60,Smith,SMI,250
+AUS,2,202,AUS202,Classroom,<Null>,Classroom,2,998,-111.784426,43.816085,2,24,202 Classroom,1065,120,Austin,AUS,202
+AUS,2,221,AUS221,Classroom,<Null>,Classroom,2,753,-111.784801,43.816068,2,32,221 Classroom,1050,60,Austin,AUS,221
+AUS,2,204,AUS204,Classroom,<Null>,Classroom,2,969,-111.784431,43.816201,2,25,204 Classroom,840,60,Austin,AUS,204
+AUS,2,210,AUS210,Classroom,<Null>,Classroom,2,907,-111.784707,43.816203,2,28,210 Classroom,0,1439,Austin,AUS,210
+AUS,2,212,AUS212,Classroom,<Null>,Classroom,2,990,-111.784835,43.816201,2,29,212 Classroom,0,1439,Austin,AUS,212
+CLK,3,341,CLK341,Classroom,46,Classroom,3,881,-111.78188,43.820366,4,144,341 Classroom,915,60,Clarke,CLK,341
+CLK,1,114,CLK114,Classroom,46,Classroom,1,702,-111.781728,43.820205,4,118,114 Classroom,510,60,Clarke,CLK,114
