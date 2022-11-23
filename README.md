@@ -13,7 +13,11 @@ I would have combined these two datasets into a master dataset with both an upda
 
 I also will be building an algorithm that can compute the best time and order to go to multiple rooms on its own. Taking into account which floor it is on, whether it is a class break or not and the best way to get to all of them in one fell swoop if possible!
 
-[Me talking about this project and what I have so far (More to come!)](https://youtu.be/bk8zcaERWTs)
+Part 2 Update:
+Did a lot more data wrnagling to get it where I can now compute the distance matrix in latitude and longitude to every room on campus and I also made it so the time scale of each room is per 15 min and has a list of true or false on whether the room is open during that 15 min break. I can now compute the shortest path with a time weight on the front that iterates through when the room is open as well as a distance vector so I can know the best path and time to go to a room.
+
+[Me talking about this project PART 1](https://youtu.be/bk8zcaERWTs)
+[Me talking about this project PART 2](https://youtu.be/aF9a11oeu28)
 
 # Development Environment
 
