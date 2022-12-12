@@ -80,11 +80,11 @@ for _ in range(npoints-1):
     
 
 
-    closest_dist = df_mat_dist.loc[closest_idx, ~df_mat_dist.index.isin(other_room_names)]
-    closest_idx = df_mat_dist.loc[closest_idx, ~df_mat_dist.index.isin(path_points)].idx()
-    print('closest dist')
-    print(closest_dist)
-    print(closest_idx)
+    # closest_dist = df_mat_dist.loc[closest_idx, ~df_mat_dist.index.isin(other_room_names)]
+    # closest_idx = df_mat_dist.loc[closest_idx, ~df_mat_dist.index.isin(path_points)].idx()
+    # print('closest dist')
+    # print(closest_dist)
+    # print(closest_idx)
         
     
     closest_dist = df_mat_dist.loc[closest_idx, ~df_mat_dist.index.isin(path_points)].min()
