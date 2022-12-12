@@ -1,0 +1,124 @@
+---
+title: "Semester Project INteractive Map"
+author: "Denver Conger"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:  
+    keep_md: false
+    toc: true
+    toc_float: true
+    code_folding: hide
+    fig_align: 'center'
+---
+
+```{r}
+library(tidyverse)
+library(sf)
+library(ggmap)
+library(mapview)
+```
+
+```{r}
+ID_counties <- USAboundaries::us_counties(states = "ID")
+
+# ID_counties = st_transform(ID_counties, "EPSG:4326")
+id_centers <- st_coordinates(st_centroid(ID_counties))
+# view(ID_counties2)
+id_centers<-as.data.frame(id_centers)
+# view(id_centers)
+# view(max(id_centers$X))
+# view(max(id_centers$Y))
+mapImageData1 = get_map(location = c(lon = mean(id_centers$X), lat = mean(id_centers$Y)),
+                    color = "color",
+                    source = "google",
+                    maptype = "roadmap",zoom = 6)
+
+# coord_map(xlim = c(min(id_centers$X), max(id_centers$X)),
+#           ylim = c(min(id_centers$Y), max(id_centers$Y)))
+ggmap_bbox <- function(map) {
+  if (!inherits(map, "ggmap")) stop("map must be a ggmap object")
+  # Extract the bounding box (in lat/lon) from the ggmap to a numeric vector,
+  # and set the names to what sf::st_bbox expects:
+  map_bbox <- setNames(unlist(attr(map, "bb")),
+                       c("ymin", "xmin", "ymax", "xmax"))
+
+  # Coonvert the bbox to an sf polygon, transform it to 3857,
+  # and convert back to a bbox (convoluted, but it works)
+  bbox_3857 <- st_bbox(st_transform(st_as_sfc(st_bbox(map_bbox, crs = 4326)), 3857))
+
+  # Overwrite the bbox of the ggmap object with the transformed coordinates
+  attr(map, "bb")$ll.lat <- bbox_3857["ymin"]
+  attr(map, "bb")$ll.lon <- bbox_3857["xmin"]
+  attr(map, "bb")$ur.lat <- bbox_3857["ymax"]
+  attr(map, "bb")$ur.lon <- bbox_3857["xmax"]
+  map
+}
+
+ID_counties <- st_transform(ID_counties, 3857)
+map <- ggmap_bbox(mapImageData1)
+ggmap(map,aes(x = min(id_centers$X), y = (id_centers$Y))) +
+    geom_sf(data = ID_counties,inherit.aes = FALSE) +
+    coord_sf(crs = st_crs(3857)) +
+    #coord_sf(crs=st_crs("+proj=longlat +ellps=WGS84 +no_defs ")) +
+    theme_minimal()
+```
+
+```{r}
+shapename1 <- read_sf('D:/Coding/IT_ticket_automation/interactive-map/roominfo/')
+shapename2 <- shapename1 %>% filter(!BUILDING %in% c("AGM","AC01","AC02","OBS","AC25","AC18")) %>% filter(SPACETYPE %in% c("Classroom"))
+sf_use_s2(FALSE)
+shapename <- st_zm(shapename2, drop = TRUE, what = "ZM")
+
+shapename = st_transform(shapename, "EPSG:4326")
+id_centers <- st_coordinates(st_centroid(shapename))
+# view(ID_counties2)
+id_centers<-as.data.frame(id_centers)
+# view(id_centers)
+# view(max(id_centers$X))
+# view(max(id_centers$Y))
+mapImageData1 = get_googlemap(center = c(lon = mean(id_centers$X), lat = mean(id_centers$Y)),
+                    color = "color",
+                    source = "google",style="feature:all|element:labels|visibility:off|feature:building|visibility:off",
+                    zoom = 16,scale=4,
+                      size=c(640, 640))
+# coord_map(xlim = c(min(id_centers$X), max(id_centers$X)),
+#           ylim = c(min(id_centers$Y), max(id_centers$Y)))
+ggmap_bbox <- function(map) {
+  if (!inherits(map, "ggmap")) stop("map must be a ggmap object")
+  # Extract the bounding box (in lat/lon) from the ggmap to a numeric vector, 
+  # and set the names to what sf::st_bbox expects:
+  map_bbox <- setNames(unlist(attr(map, "bb")), 
+                       c("ymin", "xmin", "ymax", "xmax"))
+  
+
+  # Coonvert the bbox to an sf polygon, transform it to 3857, 
+  # and convert back to a bbox (convoluted, but it works)
+  bbox_3857 <- st_bbox(st_transform(st_as_sfc(st_bbox(map_bbox, crs = 4326)), 3857))
+
+  # Overwrite the bbox of the ggmap object with the transformed coordinates 
+  attr(map, "bb")$ll.lat <- bbox_3857["ymin"]
+  attr(map, "bb")$ll.lon <- bbox_3857["xmin"]
+  attr(map, "bb")$ur.lat <- bbox_3857["ymax"]
+  attr(map, "bb")$ur.lon <- bbox_3857["xmax"]
+  
+  map
+}
+shapename = st_transform(shapename, 3857)
+map <- ggmap_bbox(mapImageData1)
+
+ggmap(map) +
+    geom_sf(data = shapename,inherit.aes = FALSE) +
+    coord_sf(crs = st_crs(3857)) +
+    #coord_sf(crs=st_crs("+proj=longlat +ellps=WGS84 +no_defs ")) +
+    theme_minimal()
+```
+
+```{r}
+mapview(shapename, color = "grey40",zcol = "BUILDING",burst = TRUE) 
+  # addLabelOnlyMarkers(~as.character(SHORTNAME),
+  #                     labelOptions = labelOptions(noHide = T, direction = 'top', textOnly = T))
+```
+
+.
+
+
